@@ -1,0 +1,13 @@
+# Ignorar archivos innecesarios para Docker
+.git/
+.gitignore
+README.md
+docs/
+src/
+pom.xml
+mvnw*
+.mvn/
+
+# Mantener solo lo necesario:
+# - target/procesa_seniales_kafka-0.0.1-SNAPSHOT.jar
+# - Dockerfile
